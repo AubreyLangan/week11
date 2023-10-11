@@ -1,0 +1,34 @@
+.container {
+    background-image: url('halloween.png');
+    background-size: cover;
+    background-repeat: fixed;
+}
+
+h1, h2 {
+    color:orange;
+    font-family: 'Creepster', cursive;
+}
+
+table {
+    border: 3px solid black;
+}
+
+td {
+    background-color: black;
+    color: orange;
+}
+
+#reset {
+    background-color: purple;
+    color: orange;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background-color: black;
+    color: purple;
+    border: 2px solid orange;
+}
